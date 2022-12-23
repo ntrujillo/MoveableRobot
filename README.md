@@ -1,5 +1,5 @@
 # Moveable Robot
-Simple program that allows you to select a part of the robot and move it around.
+Simple program that allows you to select a part of the robot and move it around. Powered by OpenGL.
 
 To run, nagivate to build folder and run ./robot
 
