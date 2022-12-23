@@ -1,4 +1,4 @@
-#Moveable Robot
+# Moveable Robot
 Simple program that allows you to select a part of the robot and move it around.
 
 To run, nagivate to build folder and run ./robot
