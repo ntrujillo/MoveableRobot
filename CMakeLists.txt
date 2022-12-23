@@ -1,7 +1,7 @@
 CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
 
 # Name of the project
-PROJECT(Assignment2)
+PROJECT(robot)
 
 # Get the list of all files.
 FILE(GLOB_RECURSE SOURCES "src/*.cpp")

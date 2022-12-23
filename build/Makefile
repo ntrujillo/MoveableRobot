@@ -162,17 +162,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Assignment2
+# Target rules for targets named robot
 
 # Build rule for target.
-Assignment2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Assignment2
-.PHONY : Assignment2
+robot: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 robot
+.PHONY : robot
 
 # fast build rule for target.
-Assignment2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment2.dir/build.make CMakeFiles/Assignment2.dir/build
-.PHONY : Assignment2/fast
+robot/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/build
+.PHONY : robot/fast
 
 #=============================================================================
 # Target rules for targets named uninstall
@@ -218,7 +218,7 @@ src/MatrixStack.o: src/MatrixStack.cpp.o
 
 # target to build an object file
 src/MatrixStack.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment2.dir/build.make CMakeFiles/Assignment2.dir/src/MatrixStack.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/src/MatrixStack.cpp.o
 .PHONY : src/MatrixStack.cpp.o
 
 src/MatrixStack.i: src/MatrixStack.cpp.i
@@ -226,7 +226,7 @@ src/MatrixStack.i: src/MatrixStack.cpp.i
 
 # target to preprocess a source file
 src/MatrixStack.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment2.dir/build.make CMakeFiles/Assignment2.dir/src/MatrixStack.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/src/MatrixStack.cpp.i
 .PHONY : src/MatrixStack.cpp.i
 
 src/MatrixStack.s: src/MatrixStack.cpp.s
@@ -234,7 +234,7 @@ src/MatrixStack.s: src/MatrixStack.cpp.s
 
 # target to generate assembly for a file
 src/MatrixStack.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment2.dir/build.make CMakeFiles/Assignment2.dir/src/MatrixStack.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/src/MatrixStack.cpp.s
 .PHONY : src/MatrixStack.cpp.s
 
 src/Program.o: src/Program.cpp.o
@@ -242,7 +242,7 @@ src/Program.o: src/Program.cpp.o
 
 # target to build an object file
 src/Program.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment2.dir/build.make CMakeFiles/Assignment2.dir/src/Program.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/src/Program.cpp.o
 .PHONY : src/Program.cpp.o
 
 src/Program.i: src/Program.cpp.i
@@ -250,7 +250,7 @@ src/Program.i: src/Program.cpp.i
 
 # target to preprocess a source file
 src/Program.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment2.dir/build.make CMakeFiles/Assignment2.dir/src/Program.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/src/Program.cpp.i
 .PHONY : src/Program.cpp.i
 
 src/Program.s: src/Program.cpp.s
@@ -258,7 +258,7 @@ src/Program.s: src/Program.cpp.s
 
 # target to generate assembly for a file
 src/Program.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment2.dir/build.make CMakeFiles/Assignment2.dir/src/Program.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/src/Program.cpp.s
 .PHONY : src/Program.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -266,7 +266,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment2.dir/build.make CMakeFiles/Assignment2.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -274,7 +274,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment2.dir/build.make CMakeFiles/Assignment2.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -282,7 +282,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment2.dir/build.make CMakeFiles/Assignment2.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -299,8 +299,8 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... uninstall"
 	@echo "... update_mappings"
-	@echo "... Assignment2"
 	@echo "... glfw"
+	@echo "... robot"
 	@echo "... src/MatrixStack.o"
 	@echo "... src/MatrixStack.i"
 	@echo "... src/MatrixStack.s"

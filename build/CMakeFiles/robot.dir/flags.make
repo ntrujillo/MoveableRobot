@@ -6,7 +6,7 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/Users/ntrujillo/Classes/CSCE_441/glm -I/Users/ntrujillo/Classes/CSCE_441/glfw/include -I/Users/ntrujillo/Classes/CSCE_441/glew/include
 
-CXX_FLAGSarm64 =  -std=c++11 -Wall -pedantic -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+CXX_FLAGSarm64 =  -std=c++11 -Wall -pedantic -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
 
-CXX_FLAGS =  -std=c++11 -Wall -pedantic -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+CXX_FLAGS =  -std=c++11 -Wall -pedantic -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
 
